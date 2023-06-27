@@ -209,7 +209,7 @@ func VisitRandom[T comparable](t []T, visit VisitFunc[T]) {
 // VisitRandomZero visits all items in the slice in random order without allocations and calls the specified function for each item
 func VisitRandomZero[T comparable](t []T, visit VisitFunc[T]) {
 	size := int64(len(t))
-	b := blackrock.New(size, time.Now().UnixNano())
+	b := gocipher.New(size, time.Now().UnixNano())
 	for i := int64(0); i < size; i++ {
 		j := b.Shuffle(i)
 		if err := visit(int(j), t[j]); err != nil {
