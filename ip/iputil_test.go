@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/boss-net/goutils/consts"
-	osutils "github.com/boss-net/gutils/os"
+	osutils "github.com/boss-net/goutils/os"
 	"github.com/stretchr/testify/require"
 )
 
