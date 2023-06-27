@@ -3,10 +3,14 @@ module github.com/boss-net/goutils
 go 1.19
 
 require (
+	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/microcosm-cc/bluemonday v1.0.24
+	github.com/pkg/errors v0.9.1
 	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d
 	github.com/shirou/gopsutil/v3 v3.23.5
 	github.com/stretchr/testify v1.8.4
+	go.uber.org/multierr v1.11.0
+	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
@@ -23,5 +27,4 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
 	golang.org/x/net v0.10.0 // indirect
 	golang.org/x/sys v0.8.0 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
