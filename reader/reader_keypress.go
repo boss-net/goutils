@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/boss-net/gutils/reader/rawmode"
+	"github.com/boss-net/goutils/reader/rawmode"
 )
 
 type KeyPressReader struct {
