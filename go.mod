@@ -9,9 +9,10 @@ require (
 	github.com/boss-net/gocipher v0.0.1
 	github.com/boss-net/gologger v0.0.1
 	github.com/charmbracelet/glamour v0.6.0
-	github.com/cheggaaa/pb/v3 v3.1.3
+	github.com/cheggaaa/pb/v3 v3.1.4
 	github.com/ebitengine/purego v0.3.2
 	github.com/google/go-github/v30 v30.1.0
+	github.com/kljensen/snowball v0.8.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
 	github.com/microcosm-cc/bluemonday v1.0.24
 	github.com/miekg/dns v1.1.55
