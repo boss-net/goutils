@@ -12,6 +12,8 @@ github.com/aymanbagabas/go-osc52 v1.0.3 h1:DTwqENW7X9arYimJrPeGZcV0ln14sGMt3pHZs
 github.com/aymanbagabas/go-osc52 v1.0.3/go.mod h1:zT8H+Rk4VSabYN90pWyugflM3ZhpTZNC7cASDfUCdT4=
 github.com/aymerick/douceur v0.2.0 h1:Mv+mAeH1Q+n9Fr+oyamOlAkUNPWPlA8PPGR0QAaYuPk=
 github.com/aymerick/douceur v0.2.0/go.mod h1:wlT5vV2O3h55X9m7iVYN0TBM0NH/MmbLnd30/FjWUq4=
+github.com/boss-net/fdmax v0.0.1 h1:PZzJrludoTlU9MYAJzjFglFHrr/lrOGUxJTs9oiONjo=
+github.com/boss-net/fdmax v0.0.1/go.mod h1:l2WSyRA9StkhR609I+OcHuRCX8zjSXIogi8J6TQ+d+U=
 github.com/boss-net/gocipher v0.0.1 h1:DRc5IGDf2r891E57kfDvrASD+0zFRqGy2Ykdx8jbbYA=
 github.com/boss-net/gocipher v0.0.1/go.mod h1:sXVyRxAesQ8xZQh+u9yw0NqoZihmmaLy9GrtRRgpTm0=
 github.com/boss-net/gologger v0.0.1 h1:QFbsefMOKVS46LzBlgkeC3HwHKcbC4xhNFW6LiBenbU=

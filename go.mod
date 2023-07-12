@@ -5,6 +5,7 @@ go 1.20
 require (
 	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
+	github.com/boss-net/fdmax v0.0.1
 	github.com/boss-net/gocipher v0.0.1
 	github.com/boss-net/gologger v0.0.1
 	github.com/charmbracelet/glamour v0.6.0
