@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"github.com/kljensen/snowball"
-	mlgoutils "github.com/boss-net/goutils/ml"
+	mlutils "github.com/boss-net/goutils/ml"
 	"github.com/boss-net/goutils/ml/metrics"
 )
 
@@ -202,7 +202,7 @@ func stem(word string) string {
 	return word
 }
 
-func (c *NaiveBayesClassifier) Evaluate(train, test []mlgoutils.LabeledDocument) {
+func (c *NaiveBayesClassifier) Evaluate(train, test []mlutils.LabeledDocument) {
 	fmt.Println("no of docs in TRAIN dataset:", len(train))
 	fmt.Println("no of docs in TEST dataset:", len(test))
 
@@ -219,7 +219,7 @@ func (c *NaiveBayesClassifier) Evaluate(train, test []mlgoutils.LabeledDocument)
 	confusionMatrixValidate.PrintClassificationReport()
 }
 
-func (c *NaiveBayesClassifier) testClf(dataset []mlgoutils.LabeledDocument) ([]string, []string) {
+func (c *NaiveBayesClassifier) testClf(dataset []mlutils.LabeledDocument) ([]string, []string) {
 	actual := []string{}
 	predicted := []string{}
 
@@ -231,7 +231,7 @@ func (c *NaiveBayesClassifier) testClf(dataset []mlgoutils.LabeledDocument) ([]s
 	return actual, predicted
 }
 
-func (c *NaiveBayesClassifier) validateClf(dataset []mlgoutils.LabeledDocument) ([]string, []string) {
+func (c *NaiveBayesClassifier) validateClf(dataset []mlutils.LabeledDocument) ([]string, []string) {
 	actual := []string{}
 	predicted := []string{}
 

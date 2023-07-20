@@ -21,7 +21,7 @@ func TestOrderedParam(t *testing.T) {
 }
 
 // TestOrderedParamIntegration preserves order of parameters
-// while sending request to server (ref:https://github.com/w3sec/w3discovery/issues/)
+// while sending request to server (ref:https://github.com/projectdiscovery/nuclei/issues/3801)
 func TestOrderedParamIntegration(t *testing.T) {
 	expected := "/?xss=<script>alert('XSS')</script>&sqli=1+AND+(SELECT+*+FROM+(SELECT(SLEEP(12)))nQIP)&jsprotocol=javascript://alert(1)&xssiwthspace=<svg+id=alert(1)+onload=eval(id)>"
 
