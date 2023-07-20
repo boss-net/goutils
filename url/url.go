@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	errorutil "github.com/boss-net/goutils/errors"
-	osgoutils "github.com/boss-net/goutils/os"
+	osutils "github.com/boss-net/goutils/os"
 	stringsutil "github.com/boss-net/goutils/strings"
 )
 
@@ -116,7 +116,7 @@ func (u *URL) String() string {
 func (u *URL) EscapedString() string {
 	var buff bytes.Buffer
 	host := u.Host
-	if osgoutils.IsWindows() {
+	if osutils.IsWindows() {
 		host = strings.ReplaceAll(host, ":", "_")
 	}
 	buff.WriteString(host)

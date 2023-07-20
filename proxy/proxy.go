@@ -1,4 +1,4 @@
-package proxygoutils
+package proxyutils
 
 import (
 	"context"
@@ -76,7 +76,7 @@ func GetAnyAliveProxy(timeoutInSec int, proxies ...string) (string, error) {
 	}
 
 	// all proxies are dead
-	return "", errorutil.NewWithTag("proxygoutils", "all proxies are dead got : %v", strings.Join(errstack, " : "))
+	return "", errorutil.NewWithTag("proxyutils", "all proxies are dead got : %v", strings.Join(errstack, " : "))
 }
 
 // dial and test if proxy is open
@@ -96,7 +96,7 @@ func GetProxyURL(proxyAddr string) (url.URL, error) {
 	if url, err := url.Parse(proxyAddr); err == nil && isSupportedProtocol(url.Scheme) {
 		return *url, nil
 	}
-	return url.URL{}, errorutil.New("invalid proxy format (It should be http[s]/socks5://[username:password@]host:port)").WithTag("proxygoutils")
+	return url.URL{}, errorutil.New("invalid proxy format (It should be http[s]/socks5://[username:password@]host:port)").WithTag("proxyutils")
 }
 
 // isSupportedProtocol checks given protocols are supported
