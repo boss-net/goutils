@@ -21,13 +21,13 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d
-	github.com/shirou/gopsutil/v3 v3.23.6
+	github.com/shirou/gopsutil/v3 v3.23.8
 	github.com/stretchr/testify v1.8.4
 	github.com/zmap/zcrypto v0.0.0-20230422215203-9a665e1e9968
 	go.uber.org/multierr v1.11.0
 	golang.org/x/exp v0.0.0-20230713183714-613f0c0eb8a1
 	golang.org/x/oauth2 v0.10.0
-	golang.org/x/sys v0.10.0
+	golang.org/x/sys v0.11.0
 	golang.org/x/text v0.11.0
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -65,8 +65,8 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
-	github.com/tklauser/go-sysconf v0.3.11 // indirect
-	github.com/tklauser/numcpus v0.6.0 // indirect
+	github.com/tklauser/go-sysconf v0.3.12 // indirect
+	github.com/tklauser/numcpus v0.6.1 // indirect
 	github.com/ulikunitz/xz v0.5.11 // indirect
 	github.com/weppos/publicsuffix-go v0.30.1-0.20230422193905-8fecedd899db // indirect
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
