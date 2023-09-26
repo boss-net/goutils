@@ -10,7 +10,7 @@ require (
 	github.com/boss-net/gologger v0.0.1
 	github.com/charmbracelet/glamour v0.6.0
 	github.com/cheggaaa/pb/v3 v3.1.4
-	github.com/ebitengine/purego v0.3.2
+	github.com/ebitengine/purego v0.5.0
 	github.com/google/go-github/v30 v30.1.0
 	github.com/hdm/jarm-go v0.0.7
 	github.com/kljensen/snowball v0.8.0
